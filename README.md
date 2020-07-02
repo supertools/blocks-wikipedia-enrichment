@@ -1,24 +1,14 @@
-# Wikipedia enrichment block
+# TL;DR Block
 
-This example block finds extracts and images from Wikipedia for records in your base and saves the
-information back to your base.
+This block finds url records in your base, and summarizes them using SMMRY.com.
+The TL;DR is then saved back in your base.
 
-The code shows:
-
--   How to connect to an outside API from your block
--   How to update records and upload attachments from your block
--   How to check permissions before updating records
-
-## How to run this block
-
-1. Copy [this base](https://airtable.com/shrIho8SB7RhrlUQL).
-
-2. Create a new block in your new base (see
-   [Create a new block](https://airtable.com/developers/blocks/guides/hello-world-tutorial#create-a-new-block),
-   selecting "Wikipedia enrichment" as your template.
-
-3. From the root of your new block, run `block run`.
+Constraints:
+* A Table named Urls
+* A column named URL -> URL to summarize
+* A column named Summary -> TL;DR Goes here
 
 ## See the block running
 
-![Block updating the base with content from wikipedia](./media/block.gif)
+<a href="https://www.loom.com/share/5aca1e6911584ee1a86bcd3240f55d8c"> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5aca1e6911584ee1a86bcd3240f55d8c-with-play.gif"> </a>
+
