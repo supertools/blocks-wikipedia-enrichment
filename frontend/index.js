@@ -7,12 +7,8 @@ const TITLE_FIELD_NAME = 'Title';
 const EXTRACT_FIELD_NAME = 'Extract';
 const IMAGE_FIELD_NAME = 'Image';
 
-// Airtable SDK limit: we can only update 50 records at a time. For more details, see
-// https://github.com/Airtable/blocks/blob/master/packages/sdk/docs/guide_writes.md#size-limits--rate-limits
 const MAX_RECORDS_PER_UPDATE = 50;
 
-// The API endpoint we're going to hit. For more details, see
-// https://en.wikipedia.org/api/rest_v1/#/Page%20content/get_page_summary__title_
 const API_ENDPOINT = 'https://en.wikipedia.org/api/rest_v1/page/summary';
 
 function WikipediaEnrichmentBlock() {
